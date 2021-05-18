@@ -1,6 +1,9 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import home, customer_dataexp, campaign_metrics, campaign_prediction # import your app modules here
+import home
+import customer_dataexp
+import campaign_metrics
+import campaign_prediction # importing app modules
 
 ## This multi-page app was prepared using the [streamlit-multiapps](https://github.com/upraneelnihar/streamlit-multiapps) framework developed by [Praneel Nihar]
 
