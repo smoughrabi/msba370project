@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 ##Importing visualization dataset
-df_viz = pd.read_csv('Datasets/df_viz.csv')
+df_viz = pd.read_csv('https://raw.githubusercontent.com/smoughrabi/msba370project/main/df_viz.csv')
 
 def app():
     st.markdown(f"<h2 style='text-align:left; font-family:arial' >{'<b>Previous Telemarketing Campaign Metrics</b>'}</h2>", unsafe_allow_html=True)
