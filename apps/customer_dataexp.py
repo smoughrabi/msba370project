@@ -13,7 +13,7 @@ st.set_page_config(
     page_icon = '💵')
 @st.cache(persist=True)
 def load_data():
-    data = pd.read_csv('Datasets/df_viz.csv')
+    data = pd.read_csv('https://raw.githubusercontent.com/smoughrabi/msba370project/main/df_viz.csv')
     return data
 
 df_viz = load_data()
