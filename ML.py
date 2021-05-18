@@ -32,7 +32,7 @@ import pickle
 
 #Loading the dataset
 
-df = pd.read_csv('df.csv', delimiter =';')
+df = pd.read_csv('https://raw.githubusercontent.com/smoughrabi/msba370project/main/df.csv', delimiter =';')
 
 # Dataset before cleaning 
 
