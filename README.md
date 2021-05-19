@@ -1,4 +1,7 @@
-# msba370project 
+# Streamlit Project 
+### by Sarah El Moughrabi
+
+
 
 multiapp.py : this .py file contains a framework for running multiple streamlit applications as a single app (developed by Praneel Nihar) This helps to organize the code and segment it properly. All other .py files are added to a select box for easy navigation
 
