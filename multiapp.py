@@ -30,5 +30,5 @@ class MultiApp:
                 '',
                 self.apps,
                 format_func=lambda app: app['title'])
-        st.image('line_separator.png',width= 1450)
+        st.image('https://github.com/smoughrabi/msba370project/blob/main/images/line_separator.png',width= 1450)
         app['function']()
