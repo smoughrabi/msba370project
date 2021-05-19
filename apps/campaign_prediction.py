@@ -4,6 +4,10 @@ import pickle
 import pandas as pd
 import streamlit as st
 
+st.set_page_config(
+    page_title = 'MSBA 370 Project',
+    page_icon = '💵')
+
 ## Unpickling trained decision tree object
 pickle_in = open("finalclassifier.pkl","rb")
 classifier = pickle.load(pickle_in)
