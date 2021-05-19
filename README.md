@@ -2,6 +2,7 @@
 ### by Sarah El Moughrabi
 
 ##### This is a prototype of a decision-making web application intended to illustrate just how accessible data-driven insights can be to key decision makers who do not necessarily have a technical background. 
+
 The mock data used for this tool is a Portuguese bank’s customer data (referenced below), which includes information about their previous and current telemarketing campaigns. Although this is a specific use case, this web app can be adapted to accommodate many use cases and is not solely restricted to the banking industry.
 
 ##### Deployed App Link : https://share.streamlit.io/smoughrabi/msba370project/main/app.py 
@@ -10,6 +11,7 @@ The mock data used for this tool is a Portuguese bank’s customer data (referen
 #### Guide to navigate your way around the files
 
 **ML.py** : includes the data cleaning, preprocessing, feature extraction, and model building and evaluation. This was prepared on Google Colab
+**finalclassifier.pkl** : the python module pickle was used to serialize the trained model to be used in the web app. This allows for the creation of a user friendly prediction tool
 
 **multiapp.py** : this .py file contains a framework for running multiple streamlit applications as a single app (developed by Praneel Nihar) This helps to organize the code and segment it properly. All other .py files are added to a select box for easy navigation
 
@@ -31,4 +33,4 @@ The datasets used can be found in the **Datasets** folder and are:
 
 The **images** folder : Includes two pictures that were used within the web app 
 
-
+#### This project was prepared for Data-Driven Digital Marketing Course taugh at OSB-AUB
