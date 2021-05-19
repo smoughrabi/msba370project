@@ -1,9 +1,5 @@
 import streamlit as st
 
-st.set_page_config(
-    page_title = 'MSBA 370 Project',
-    page_icon = '💵')
-
 def app():
 
     ## Making an About Section
