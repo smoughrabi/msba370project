@@ -29,8 +29,6 @@ The datasets used can be found in the **Datasets** folder and are:
 
 - **data_viz.csv**: the cleaned and processed dataset before converting the variables to one hot and ordinal encoded to be used for visualization purposes
 
-**images** folder 
-
-Includes two pictures that were used within the web app 
+The **images** folder : Includes two pictures that were used within the web app 
 
 
