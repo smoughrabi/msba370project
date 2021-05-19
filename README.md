@@ -2,15 +2,7 @@
 ### by Sarah El Moughrabi
 
 ##### This is a prototype of a decision-making web application intended to illustrate just how accessible data-driven insights can be to key decision makers who do not necessarily have a technical background. 
-The mock data used for this tool is a Portuguese bank’s customer data, which includes information about their previous and current telemarketing campaigns. Although this is a specific use case, this web app can be adapted to accommodate many use cases and is not solely restricted to the banking industry.
-![image](https://user-images.githubusercontent.com/79421569/118756327-56168b80-b873-11eb-9c2e-8b276ce419fb.png)
-
-
-
-
-
-
-
+The mock data used for this tool is a Portuguese bank’s customer data (referenced below), which includes information about their previous and current telemarketing campaigns. Although this is a specific use case, this web app can be adapted to accommodate many use cases and is not solely restricted to the banking industry.
 
 
 
