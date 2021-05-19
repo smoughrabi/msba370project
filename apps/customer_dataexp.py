@@ -8,6 +8,9 @@ import plotly.figure_factory as ff
 from plotly.offline import iplot
 
 ## Setting an icon and page title for the App + enabling caching to improve the website speed
+st.set_page_config(
+    page_title = 'MSBA 370 Project',
+    page_icon = '💵')
 @st.cache(persist=True)
 def load_data():
     data = pd.read_csv('https://raw.githubusercontent.com/smoughrabi/msba370project/main/df_viz.csv')
