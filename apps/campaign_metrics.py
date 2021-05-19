@@ -5,10 +5,6 @@ import numpy as np
 ##Importing visualization dataset
 df_viz = pd.read_csv('https://raw.githubusercontent.com/smoughrabi/msba370project/main/df_viz.csv')
 
-st.set_page_config(
-    page_title = 'MSBA 370 Project',
-    page_icon = '💵')
-
 def app():
     st.markdown(f"<h2 style='text-align:left; font-family:arial' >{'<b>Previous Telemarketing Campaign Metrics</b>'}</h2>", unsafe_allow_html=True)
     st.subheader('Dive into the metrics & figures of the bank\'s latest telemarketing campaign aimed at getting customers to subscribe to a bank-term deposit.')
