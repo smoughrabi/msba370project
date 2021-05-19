@@ -6,6 +6,9 @@ from apps import home,customer_dataexp,campaign_metrics, campaign_prediction # i
 
 app = MultiApp()
 
+st.set_page_config(
+    page_title = 'MSBA 370 Project',
+    page_icon = '💵')
 
 ## Setting the Width (Streamlit Wide Layout is too wide)
 st.markdown(
