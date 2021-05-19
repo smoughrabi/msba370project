@@ -23,7 +23,7 @@ st.markdown(
     )
 
 ## Title
-st.image('https://github.com/smoughrabi/msba370project/blob/main/images/header1.jpeg',width= 1450)
+st.image('header1.jpeg',width= 1450)
 st.markdown(f"<h1 style='text-align:center;' >{'<b>Decision-Making Web App</b>'}</h1>", unsafe_allow_html=True)
 st.markdown(f"<h3 style='text-align:center;' >{'by Sarah El Moughrabi'}</h3>", unsafe_allow_html=True)
 
