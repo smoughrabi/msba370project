@@ -110,7 +110,7 @@ def app():
     with customer_bankingbehavior:
         st.markdown(html_title_sec2,unsafe_allow_html=True)
         st.write("")
-        st.markdown(f"<h3 style='text-align:left; font-family:arial;' >{'This section explores data on customer banking behavior, including the proportion of customers that have taken out a personal loan or that have credit on default' }</h3>", unsafe_allow_html=True)
+        st.markdown(f"<h3 style='text-align:left; font-family:arial;' >{'This section explores data on customer banking behavior, including the proportion of customers that have taken out a personal loan vs a housing loan.' }</h3>", unsafe_allow_html=True)
         st.write("")
         st.write("")
 
