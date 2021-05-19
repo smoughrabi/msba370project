@@ -121,7 +121,7 @@ def app():
             fig3 = go.Figure()
             color_list = ['teal', 'lightgray']
             fig3.add_trace(go.Pie(labels= df_viz['Personal Loan?'], values= df_viz['count']))
-            fig3.update_traces(hoverinfo='label+percent', textinfo='label+percent',insidetextorientation='radial', textfont_size=14, marker=dict(colors= color_list, line=dict(color='#000000', width=2)))
+            fig3.update_traces(hoverinfo='label+percent', textinfo='label+percent',insidetextorientation='radial', textfont_size=14, marker=dict(colors= color_list, line=dict(color='#FFFFFF', width=2)))
             fig3.update_layout(title= 'Proportion of Customers who have taken out Personal Loans', titlefont_size=18, template = 'plotly_white',showlegend = False)
             st.plotly_chart(fig3)
             st.write("")
@@ -135,7 +135,7 @@ def app():
             ## Pie Chart Showing the Proportion of Customers with Credit in Default
             #fig2 = go.Figure()
             #fig2.add_trace(go.Pie(labels= df_viz['Credit in Default'], values= df_viz['count']))
-            #fig2.update_traces(hoverinfo='label+percent', textinfo='label+percent',insidetextorientation='radial', textfont_size=14, marker=dict(colors= color_list, line=dict(color='#000000', width=2)))
+            #fig2.update_traces(hoverinfo='label+percent', textinfo='label+percent',insidetextorientation='radial', textfont_size=14, marker=dict(colors= color_list, line=dict(color='#FFFFFF', width=2)))
             #fig2.update_layout(title= 'Proportion of Customers with Credit in Default', titlefont_size=18, template = 'plotly_white', showlegend = False)
             #st.plotly_chart(fig2)
             #st.write("")
@@ -153,7 +153,7 @@ def app():
             color_list = ['teal', 'lightgray']
             fig4 = go.Figure()
             fig4.add_trace(go.Pie(labels= df_viz['Housing Loan?'], values= df_viz['count']))
-            fig4.update_traces(hoverinfo='label+percent', textinfo='label+percent',insidetextorientation='radial', textfont_size=14, marker=dict(colors = color_list, line=dict(color='#000000', width=2)))
+            fig4.update_traces(hoverinfo='label+percent', textinfo='label+percent',insidetextorientation='radial', textfont_size=14, marker=dict(colors = color_list, line=dict(color='#FFFFFF', width=2)))
             fig4.update_layout(title= 'Proportion of Customers who have taken out Housing Loans', titlefont_size=18, template = 'plotly_white',showlegend = False)
             st.plotly_chart(fig4)
             st.write("")
