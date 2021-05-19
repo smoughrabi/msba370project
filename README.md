@@ -33,4 +33,4 @@ The datasets used can be found in the **Datasets** folder and are:
 
 The **images** folder : Includes two pictures that were used within the web app 
 
-#### This project was prepared for Data-Driven Digital Marketing Course taugh at OSB-AUB
+#### This project was prepared for Data-Driven Digital Marketing Course taught at OSB-AUB
