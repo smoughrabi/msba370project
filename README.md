@@ -11,6 +11,7 @@ The mock data used for this tool is a Portuguese bank’s customer data (referen
 #### Guide to navigate your way around the files
 
 **ML.py** : includes the data cleaning, preprocessing, feature extraction, and model building and evaluation. This was prepared on Google Colab
+
 **finalclassifier.pkl** : the python module pickle was used to serialize the trained model to be used in the web app. This allows for the creation of a user friendly prediction tool
 
 **multiapp.py** : this .py file contains a framework for running multiple streamlit applications as a single app (developed by Praneel Nihar) This helps to organize the code and segment it properly. All other .py files are added to a select box for easy navigation
