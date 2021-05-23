@@ -1,4 +1,4 @@
-# Streamlit Project 
+# Streamlit Decision Making Tool 
 ### by Sarah El Moughrabi
 
 ##### This is a prototype of a decision-making web application intended to illustrate just how accessible data-driven insights can be to key decision makers who do not necessarily have a technical background. 
