@@ -5,9 +5,6 @@
 
 The mock data used for this tool is a Portuguese bank’s customer data (referenced below), which includes information about their previous and current telemarketing campaigns. Although this is a specific use case, this web app can be adapted to accommodate many use cases and is not solely restricted to the banking industry.
 
-##### Deployed App Link : https://share.streamlit.io/smoughrabi/msba370project/main/app.py 
-
-
 #### Guide to navigate your way around the files
 
 **ML.py** : includes the data cleaning, preprocessing, feature extraction, and model building and evaluation. This was prepared on Google Colab
